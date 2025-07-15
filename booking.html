@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Flower Delivery Booking</title>
+</head>
+<body class="book">
+    <header class="booking">
+    <h1>Booking Form</h1>
+    <nav>
+      <a href="index.html">Home</a> 
+      <a href="about.html">About</a> 
+      <a href="booking.html">booking</a>
+      <a href="gallery.html">Gallery</a> 
+      <a href="help.html">Help</a>
+    </nav>
+  </header>
+
+  <main>
+  <form action="#" method="POST">
+
+    <label for="name">Full Name</label><br>
+    <input type="text" name="fullname" required placeholder="fullname"><br><br>
+
+    <label for="email">Email Address</label><br>
+    <input type="email" name="email" required placeholder="email Address" ><br><br>
+
+    <label for="district">Select District</label><br>
+    <select id="district" name="district" required>
+      <option value="">-- Choose District --</option>
+      <option value="banadir">Banadir</option>
+      <option value="hargeisa">Hargeisa</option>
+      <option value="garowe">Garowe</option>
+      <option value="baidoa">Baidoa</option>
+      <option value="kismayo">Kismayo</option>
+    </select><br><br>
+
+    <label for="major">Select Major</label><br>
+    <select id="major" name="major" required>
+      <option value="">-- Choose Major --</option>
+      <option value="roses">Roses</option>
+      <option value="tulips">Tulips</option>
+      <option value="mixed">Mixed Flowers</option>
+      <option value="custom">Custom Order</option>
+    </select><br><br>
+
+    <label for="comment">Comment</label><br>
+    <textarea id="comment" required placeholder=" send comment" rows="4"></textarea><br><br>
+
+    <button type="submit">Submit Delivery</button>
+
+  </form>
+</main>
+</body>
+</html>
